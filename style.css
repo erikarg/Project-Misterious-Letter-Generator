@@ -1,0 +1,84 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.newspaper {
+  background-color: antiquewhite;
+  font-family: Times New Roman, Times, serif;
+  font-weight: 700;
+}
+
+#criar-carta {
+  display: block;
+  margin: 0 auto;
+}
+
+#carta-texto {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+#carta-contador {
+  text-align: center;
+}
+
+#carta-gerada {
+  text-align: center;
+}
+
+.magazine1 {
+  background-color: teal;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.magazine2 {
+  background-image: url('images/pink-pattern.png');
+  color: fuchsia;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+
+.medium {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.reallybig {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.rotateleft {
+  transform: rotate(-5deg);
+}
+
+.rotateright {
+  transform: rotate(5deg);
+}
+
+.skewleft {
+  transform: skewX(10deg);
+}
+
+.skewright {
+  transform: skewX(-10deg);
+}
+
+html {
+  background-image: url('https://w0.peakpx.com/wallpaper/889/357/HD-wallpaper-mystery-amoled.jpg');
+  background-repeat: round;
+  background-size: contain;
+  color: white;
+}
